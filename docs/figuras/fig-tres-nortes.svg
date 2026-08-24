@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" width="560" height="400" role="img" aria-label="Os três nortes para São Paulo">
+<rect width="560" height="400" fill="#ffffff"/>
+<text x="280" y="26" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Os três nortes — São Paulo (fuso 23 S)</text>
+<g transform="translate(280,340)">
+  <line x1="0" y1="0" x2="0" y2="-250" stroke="#333" stroke-width="2"/>
+  <polygon points="0,-262 -6,-248 6,-248" fill="#333"/>
+  <text x="0" y="-272" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">NG</text>
+  <text x="0" y="-288" font-family="sans-serif" font-size="10" fill="#666" text-anchor="middle">geográfico</text>
+  <line x1="0" y1="0" x2="30" y2="-248" stroke="#1f78b4" stroke-width="2"/>
+  <polygon points="31,-260 24,-246 37,-247" fill="#1f78b4"/>
+  <text x="46" y="-256" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1f78b4">NQ</text>
+  <text x="60" y="-240" font-family="sans-serif" font-size="10" fill="#1f78b4">quadrícula</text>
+  <line x1="0" y1="0" x2="-94" y2="-232" stroke="#e31a1c" stroke-width="2"/>
+  <polygon points="-99,-243 -104,-228 -90,-233" fill="#e31a1c"/>
+  <text x="-116" y="-244" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e31a1c">NM</text>
+  <text x="-140" y="-228" font-family="sans-serif" font-size="10" fill="#e31a1c">magnético</text>
+  <circle cx="0" cy="0" r="4" fill="#333"/>
+</g>
+<rect x="20" y="290" width="185" height="66" fill="#f7f7f7" stroke="#bbb" rx="4"/>
+<text x="30" y="310" font-family="sans-serif" font-size="11" fill="#e31a1c">Declinação ≈ 21°–22° W</text>
+<text x="30" y="326" font-family="sans-serif" font-size="9" fill="#666">confirmar no ano (modelo IGRF/</text>
+<text x="30" y="338" font-family="sans-serif" font-size="9" fill="#666">WMM); muda todo ano</text>
+<text x="30" y="352" font-family="sans-serif" font-size="9" fill="#666">Fitz (2000): δ e variação anual</text>
+<rect x="355" y="290" width="185" height="66" fill="#f7f7f7" stroke="#bbb" rx="4"/>
+<text x="365" y="310" font-family="sans-serif" font-size="11" fill="#1f78b4">Convergência ≈ 0°41'</text>
+<text x="365" y="326" font-family="serif" font-size="11" font-style="italic" fill="#666">c ≈ Δλ · sen φ</text>
+<text x="365" y="340" font-family="sans-serif" font-size="9" fill="#666">Δλ = 46°44' − 45°W ; φ ≈ 23°34'S</text>
+<text x="280" y="384" font-family="sans-serif" font-size="10" fill="#999" text-anchor="middle">ângulos exagerados para leitura — na carta, desenhe em escala angular</text>
+</svg>

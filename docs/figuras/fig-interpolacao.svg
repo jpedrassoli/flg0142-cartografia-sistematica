@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" width="620" height="380" role="img" aria-label="Interpolação linear de curvas de nível">
+<rect width="620" height="380" fill="#ffffff"/>
+<text x="310" y="26" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Interpolar curvas de nível entre pontos cotados</text>
+<text x="30" y="56" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f78b4">1. Onde a curva cruza o segmento entre dois pontos?</text>
+<circle cx="80" cy="110" r="4" fill="#333"/><text x="60" y="102" font-family="sans-serif" font-size="11" fill="#333">742</text>
+<circle cx="330" cy="110" r="4" fill="#333"/><text x="336" y="102" font-family="sans-serif" font-size="11" fill="#333">748</text>
+<line x1="80" y1="110" x2="330" y2="110" stroke="#999"/>
+<circle cx="205" cy="110" r="5" fill="#e31a1c"/>
+<text x="205" y="136" font-family="sans-serif" font-size="11" fill="#e31a1c" text-anchor="middle">curva de 745</text>
+<rect x="370" y="80" width="230" height="86" fill="#f7f7f7" stroke="#bbb" rx="4"/>
+<text x="380" y="100" font-family="sans-serif" font-size="11" fill="#222">Regra de três, ponto a ponto:</text>
+<text x="380" y="124" font-family="serif" font-size="12" font-style="italic" fill="#1f78b4">d = D · (h − h₁)/(h₂ − h₁)</text>
+<text x="380" y="146" font-family="sans-serif" font-size="10" fill="#666">D = distância entre os pontos cotados</text>
+<text x="380" y="160" font-family="sans-serif" font-size="10" fill="#666">h = cota da curva procurada</text>
+<text x="30" y="212" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f78b4">2. Una os pontos de mesma cota (à mão) — ou deixe o QGIS fazer</text>
+<path d="M70 300 C 140 280, 200 300, 260 285 S 380 300, 470 288" fill="none" stroke="#e31a1c" stroke-width="1.8"/>
+<path d="M70 275 C 150 258, 220 272, 300 258 S 400 272, 470 262" fill="none" stroke="#e31a1c" stroke-width="1.2"/>
+<path d="M70 348 C 150 332, 230 350, 310 338 S 400 350, 470 340" fill="none" stroke="#e31a1c" stroke-width="1.2"/>
+<text x="486" y="292" font-family="sans-serif" font-size="10" fill="#e31a1c">745</text>
+<text x="486" y="266" font-family="sans-serif" font-size="10" fill="#e31a1c">750</text>
+<text x="486" y="344" font-family="sans-serif" font-size="10" fill="#e31a1c">740</text>
+<text x="310" y="372" font-family="sans-serif" font-size="10" fill="#666" text-anchor="middle">Não se cruzam · adensam no declive forte · fecham-se sobre si mesmas (Fitz, 2000)</text>
+</svg>

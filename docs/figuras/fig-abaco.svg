@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" role="img" aria-label="Ábaco clinográfico">
+<rect width="600" height="380" fill="#ffffff"/>
+<text x="300" y="26" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Declividade: do espaçamento das curvas à classe</text>
+<text x="300" y="46" font-family="sans-serif" font-size="11" fill="#666" text-anchor="middle">à mão (ábaco) ou no QGIS (Raster → Análise → Declividade)</text>
+<rect x="40" y="70" width="270" height="260" fill="#fcfcfc" stroke="#bbb"/>
+<text x="175" y="90" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle">Ábaco (analógico)</text>
+<g stroke="#e31a1c" stroke-width="1.6">
+<line x1="70" y1="110" x2="70" y2="310"/><line x1="76" y1="110" x2="76" y2="310"/>
+<line x1="115" y1="110" x2="115" y2="310"/><line x1="127" y1="110" x2="127" y2="310"/>
+<line x1="170" y1="110" x2="170" y2="310"/><line x1="194" y1="110" x2="194" y2="310"/>
+<line x1="235" y1="110" x2="235" y2="310"/><line x1="283" y1="110" x2="283" y2="310"/>
+</g>
+<g font-family="sans-serif" font-size="10" fill="#333" text-anchor="middle">
+<text x="73" y="326">&gt;30%</text><text x="121" y="326">30–20%</text><text x="182" y="326">20–12%</text><text x="259" y="326">12–5%</text>
+</g>
+<rect x="330" y="70" width="230" height="260" fill="#fcfcfc" stroke="#bbb"/>
+<text x="445" y="90" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle">tg α = e / D</text>
+<text x="445" y="150" font-family="sans-serif" font-size="10" fill="#666" text-anchor="middle">e = equidistância</text>
+<text x="445" y="168" font-family="sans-serif" font-size="10" fill="#666" text-anchor="middle">D = distância horizontal entre curvas</text>
+<line x1="360" y1="210" x2="360" y2="250" stroke="#e31a1c" stroke-width="2.4"/>
+<text x="370" y="234" font-family="sans-serif" font-size="10" fill="#e31a1c">juntas → forte</text>
+<line x1="360" y1="270" x2="360" y2="310" stroke="#1f78b4" stroke-width="1.2"/>
+<text x="378" y="294" font-family="sans-serif" font-size="10" fill="#1f78b4">afastadas → suave</text>
+<text x="300" y="360" font-family="sans-serif" font-size="10" fill="#999" text-anchor="middle">o ábaco depende da ESCALA e da EQUIDISTÂNCIA — método De Biasi (Fitz, 2000; fig. 8.4)</text>
+</svg>
