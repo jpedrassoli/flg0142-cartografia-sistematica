@@ -1,0 +1,90 @@
+site_name: FLG0142 — Elementos de Cartografia Sistemática
+site_description: Curso de graduação em Geografia (FFLCH-USP). Leitura e produção de cartas topográficas de São Paulo, em série temporal, com QGIS, Google Earth, fotogrametria de celular e GPS.
+site_author: Departamento de Geografia, FFLCH-USP
+site_url: https://SEU_USUARIO.github.io/flg0142-cartografia-sistematica/
+repo_url: https://github.com/SEU_USUARIO/flg0142-cartografia-sistematica
+repo_name: flg0142-cartografia-sistematica
+copyright: CC BY 4.0 — Departamento de Geografia, FFLCH-USP
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.highlight
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle: { icon: material/weather-night, name: Modo escuro }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle: { icon: material/weather-sunny, name: Modo claro }
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed: { alternate_style: true }
+  - pymdownx.arithmatex: { generic: true }
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc: { permalink: true }
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search: { lang: pt }
+
+nav:
+  - Início: index.md
+  - Plano de ensino: plano-de-ensino.md
+  - Ambiente:
+      - QGIS: ambiente/setup-qgis.md
+      - Imagens de satélite (XYZ): ambiente/setup-xyz-tiles.md
+      - Google Earth: ambiente/setup-google-earth.md
+      - Apps no celular: ambiente/setup-apps-celular.md
+  - Dados: dados/fontes-de-dados.md
+  - Aulas:
+      - "1 — Escala e generalização": aulas/aula-01.md
+      - "2 — Cartografia sistemática e a folha": aulas/aula-02.md
+      - "3 — Áreas vinculadas (Temática, SR, SIG, GPS)": aulas/aula-03.md
+      - "4 — Referenciais: geoide, elipsoide, datum": aulas/aula-04.md
+      - "5 — Projeções cartográficas": aulas/aula-05.md
+      - "6 — Coordenadas e GPS": aulas/aula-06.md
+      - "7 — Escala e escala da foto": aulas/aula-07.md
+      - "8 — Prova": aulas/aula-08.md
+      - "9 — Norte, azimute e ângulos": aulas/aula-09.md
+      - "10 — Fotogrametria e SR (celular)": aulas/aula-10.md
+      - "11 — Estereoscopia e paralaxe": aulas/aula-11.md
+      - "12 — Curvas de nível e perfil": aulas/aula-12.md
+      - "13 — Hipsometria, clinografia e bacia": aulas/aula-13.md
+      - "14 — SIG, Google Earth e ensino": aulas/aula-14.md
+      - "15 — 2ª avaliação: carta + PCC": aulas/aula-15.md
+  - Exercícios:
+      - exercicios/index.md
+      - "02 — Georreferenciar a carta de Campinas": exercicios/ex-02-georreferenciamento.md
+      - "03 — SR + SIG: Landsat e limites IBGE": exercicios/ex-03-atualizacao.md
+      - "04 — Dois data": exercicios/ex-04-datum.md
+      - "05 — Projeções": exercicios/ex-05-projecoes.md
+      - "06 — Sub-região: coordenadas e GPS": exercicios/ex-06-coordenadas-gps.md
+      - "07 — Escala e escala da foto": exercicios/ex-07-escala.md
+      - "09 — Três nortes e azimute": exercicios/ex-09-nortes-azimute.md
+      - "10 — Fotogrametria com celular": exercicios/ex-10-fotogrametria-celular.md
+      - "11 — Estereoscopia, paralaxe e relevo": exercicios/ex-11-estereoscopia.md
+      - "12 — Curvas e perfil": exercicios/ex-12-curvas-perfil.md
+      - "13 — Hipsometria, clinografia e expansão": exercicios/ex-13-hipsometria-clinografia.md
+      - "14 — SIG, Google Earth e série histórica": exercicios/ex-14-sig-google-earth.md
+  - Referências: referencias.md

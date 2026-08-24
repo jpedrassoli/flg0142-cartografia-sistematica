@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Se este material for útil, por favor cite-o."
+title: "FLG0142 — Elementos de Cartografia Sistemática: material didático"
+abstract: >-
+  Material didático da disciplina Elementos de Cartografia Sistemática
+  (Departamento de Geografia, FFLCH-USP), com leitura e produção de cartas
+  topográficas de São Paulo em série temporal, usando QGIS, Google Earth,
+  fotogrametria de celular e GPS.
+authors:
+  - family-names: "Pedrassoli"
+    given-names: "Julio César"
+    affiliation: "Departamento de Geografia, FFLCH, Universidade de São Paulo"
+date-released: 2026-08-17
+license: CC-BY-4.0
+url: "https://SEU_USUARIO.github.io/flg0142-cartografia-sistematica/"
+keywords: [cartografia sistemática, carta topográfica, QGIS, GeoSampa, ensino de geografia]
