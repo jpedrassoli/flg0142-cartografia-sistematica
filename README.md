@@ -27,6 +27,3 @@ pip install mkdocs-material
 mkdocs serve   # http://127.0.0.1:8000
 ```
 
-## Publicar
-
-Ver [`PUBLICAR.md`](PUBLICAR.md). Licença: [CC BY 4.0](LICENSE).
